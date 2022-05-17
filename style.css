@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Faster+One&family=Londrina+Outline&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Londrina+Outline&family=Passion+One&display=swap');
+/*font-family: 'Passion One', cursive;*/
+/*font-family: 'Baloo Tamma 2', cursive;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    user-select: none;
+}
+body{
+    background-color: black;    
+}
+/*Scrollbar*/
+::-webkit-scrollbar{
+    width: 0.3rem;
+}
+::-webkit-scrollbar-track{
+    background: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #828282;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #ffffff
+}
+/*topCover*/
+.images{
+    background-image: linear-gradient(rgb(0,0,0,0.35),rgb(0,0,0,0.35)),url("pics/Final\ Train\ Station\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45rem;
+    transition-duration: 0.8s;
+}
+/*imagesAbout*/
+.imagesAbout{
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("pics/Train\ Station\ View\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45rem;
+    transition-duration: 0.8s;
+}
+.imagesAbout h1{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+/*imagesProject*/
+.imagesAbout{
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("pics/Train\ Station\ View\ 2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45rem;
+    transition-duration: 0.8s;
+}
+.imagesAbout h1{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    font-size: 3rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    letter-spacing: 0.2rem;
+}
+.imagesProject{
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url("pics/Heneral\ Luna\ Eevee.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45rem;
+    transition-duration: 0.8s;
+}
+.imagesProject h1{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+/*navbar*/
+nav ul{
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+ul li{
+    display: inline-block;
+    padding: 1.8rem 2rem 0rem 2rem;
+    color: white;
+    font-size: 1.6rem;
+    transition-duration: 0.5s;
+}
+nav ul li:hover{
+    color: rgb(196, 116, 5);
+    transform: scale(1.2);
+}
+/*images*/
+.images h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 15rem;
+    font-size: 3.4rem;
+    opacity: 1;
+}
+.images h1::before{
+    content:"Explore";
+    animation-name: animx;
+    animation-iteration-count: initial;
+    animation-duration: 9s;
+    animation: animx initial 9s;
+}
+@keyframes animx{
+    0%{content:"Welcome"; opacity: 0;}
+    50%{content:"Welcome"; opacity: 1;}
+    60%{content:"Welcome"; opacity: 0;}
+    62%{content:"Explore"; opacity: 0;}
+    90%{content:"Explore"; opacity: 1;}
+    100%{content:"Explore"; opacity: 1;}
+
+}
+/*title*/
+.opener1 {
+    margin: 4rem 0rem 0rem 2rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    height: 5.5rem;
+    width: 12rem;
+    padding-left: 0.8rem;
+    background-color: rgb(245, 245, 245,0.8);
+    color: black;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 0.4rem;
+}
+.opener1 h2{
+    position: relative;
+    color: orange;
+    top: -4.4rem;
+    left: 1.1rem;
+    letter-spacing: 0.2rem;
+    width: 20rem;
+    font-size: 1.5rem;
+}
+.opener1 h2 .firstColor{
+    color: black;
+}
+section{
+    color: white;
+}
+section h1{
+    margin-left: 1.4rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 2.2rem;
+    margin-top: 3rem;
+}
+section p{
+    margin-top: -0.5rem;
+    margin-left: 2.4rem;
+    font-size: 1.4rem;
+    font-family: 'Passion One', cursive;
+    color: whitesmoke;
+}
+.videoPosition{
+    margin-top: 1rem;
+    width: 100%;
+}
+/*introducerAbout*/
+.introducer {
+    height: 5rem;
+    width: auto;
+    margin-left: 1rem;
+    position: relative;
+    top: 0rem;
+    animation: anim infinite 3s;
+}
+@keyframes anim{
+    0%{top: 0rem;}
+    50%{top: 1.2rem;}
+    100%{top: 0rem;}
+}
+/*horizonPanel*/
+.horizonPanel div{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-bottom: 15rem;
+}
+.horizonPanel div img{
+    margin-top: 5rem;
+    height: 13.8rem;
+    width: auto;
+    border-radius: 0.3rem;
+    transition-duration: 0.4s;
+}
+.horizonPanel div img:hover{
+    transform: scale(1.1);
+}
+/*moreDetailsWork*/
+.moreDetailsWork a{
+    color: whitesmoke;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.moreDetailsWork{
+    margin-left: 4rem;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+footer ul li{
+    margin: 10rem 1rem 2rem 1rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    display: inline-block;
+}
+footer ul li:hover{
+    color: rgb(227, 134, 5);
+    transform: scale(1.2);
+}
+@media screen and (min-width:1200px){
+    .images{
+        height: 65rem;
+    }
+    .imagesAbout{
+        height: 65rem;
+    }
+    .imagesProject{
+        height: 48rem;
+    }
+}
+@media screen and (max-width: 1200px){
+    .horizonPanel div{
+        flex-direction:column;
+    }
+    .horizonPanel div{
+        align-items: center;
+    }
+    .horizonPanel div img{
+        height: auto;
+        width: 25rem;
+    }
+}
+@media screen and (min-width:1300px){
+    .images{
+        height: 60rem;
+    }
+    .imagesAbout{
+        height: 60rem;
+    }
+    .imagesProject{
+        height: 50rem;
+    }
+    ul li{
+        padding: 1.8rem 3rem 0rem 3rem;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-height:960px){
+    .images{
+        height: 75rem;
+    }
+    .imagesAbout{
+        height: 75rem;
+    }
+    .imagesProject{
+        height: 60rem;
+    }
+}
