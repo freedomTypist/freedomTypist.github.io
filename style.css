@@ -192,7 +192,7 @@ section p{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
-    margin-bottom: 15rem;
+    margin-bottom: 2rem;
 }
 .horizonPanel div img{
     margin-top: 5rem;
